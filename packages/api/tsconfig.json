@@ -3,9 +3,10 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
+    "module": "commonjs",
     "target": "ES2019",
-    "lib": ["dom", "ES2019"]
+    "lib": ["ES2019"]
   },
-  "include": ["src/**/*", "tests/**/*"],
-  "references": [{ "path": "../foo" }]
+  "references": [{ "path": "../core" }],
+  "include": ["src/**/*", "tests/**/*"]
 }

@@ -1,7 +1,7 @@
 {
-  "name": "@ts-monorepo/foo",
+  "name": "@ts-monorepo/core",
   "version": "1.0.0",
-  "description": "Foo only contains logic",
+  "description": "Core contains pure logic with no ui",
   "author": "Elias Andualem",
   "license": "MIT",
   "private": true,
@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "tsc -b",
-    "clean": "rm -rf ./dist && rm -rf ./build && rm -f tsconfig.tsbuildinfo"
+    "clean": "rm -rf ./dist && rm -f tsconfig.tsbuildinfo",
+    "watch": "tsc -b -w --preserveWatchOutput"
   }
 }
