@@ -1,0 +1,9 @@
+{
+  "name": "@ts-monorepo/foo",
+  "version": "1.0.0",
+  "description": "Foo",
+  "main": "index.js",
+  "author": "Elias Andualem",
+  "license": "MIT",
+  "private": true
+}
