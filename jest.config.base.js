@@ -13,6 +13,7 @@ module.exports = {
     "<rootDir>/node_modules/",
     "(test/.*.mock).(jsx?|tsx?)$",
   ],
+  projects: ["<rootDir>"],
   coverageDirectory: "<rootDir>/coverage/",
   verbose: true,
 };

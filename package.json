@@ -3,9 +3,15 @@
   "private": true,
   "description": "Template for setting up a TypeScript monorepo",
   "license": "MIT",
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**"
+    ]
+  },
   "scripts": {
     "build": "lerna run build --stream",
     "clean": "rm -rf .build && lerna run clean --parallel",

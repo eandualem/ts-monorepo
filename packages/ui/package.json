@@ -11,7 +11,7 @@
   "scripts": {
     "start": "webpack serve",
     "build": "yarn compile && webpack --env production",
-    "clean": "rm -rf ./dist && rm -rf ./build && rm tsconfig.tsbuildinfo",
+    "clean": "rm -rf ./dist && rm -rf ./build && rm -rf ./coverage && rm tsconfig.tsbuildinfo",
     "test": "jest",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage",
