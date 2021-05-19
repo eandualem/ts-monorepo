@@ -14,8 +14,10 @@
     "clean": "rm -rf ./dist && rm -rf ./build && rm tsconfig.tsbuildinfo",
     "test": "jest",
     "test:watch": "jest --watch",
+    "coverage": "jest --coverage",
     "watch": "tsc -b -w --preserveWatchOutput",
-    "compile": "tsc -b"
+    "compile": "tsc -b",
+    "lint": "eslint ./src --ext .ts,.tsx"
   },
   "dependencies": {
     "@ts-monorepo/core": "^1.0.0"
