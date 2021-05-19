@@ -2,11 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "module": "commonjs",
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "removeComments": true,
     "strict": true,
+    "composite": true,
 
     /* Strict Type-Checking Options */
     "noImplicitAny": true,
@@ -32,6 +31,5 @@
     /* Advanced Options */
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
-  },
-  "exclude": ["node_modules", "dist", "coverage"]
+  }
 }
