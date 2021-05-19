@@ -1,0 +1,11 @@
+{
+  "name": "ts-monorepo",
+  "private": true,
+  "description": "Template for setting up a TypeScript monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
