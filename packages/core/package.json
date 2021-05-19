@@ -5,8 +5,8 @@
   "author": "Elias Andualem",
   "license": "MIT",
   "private": true,
-  "main": "dist/index",
-  "types": "dist/index",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],

@@ -7,7 +7,6 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "lerna run start",
     "build": "lerna run build --stream",
     "clean": "rm -rf .build && lerna run clean --parallel"
   },

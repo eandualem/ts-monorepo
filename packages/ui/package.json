@@ -5,8 +5,6 @@
   "author": "Elias Andualem",
   "license": "MIT",
   "private": true,
-  "main": "dist/index",
-  "types": "dist/index",
   "files": [
     "dist"
   ],
