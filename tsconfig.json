@@ -21,7 +21,7 @@
     "sourceMap": true,
     "noEmitOnError": true,
     "esModuleInterop": true,
-    "types": [],
+    "types": ["jest"],
     "jsx": "react",
 
     /* Experimental Options */

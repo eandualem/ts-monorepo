@@ -12,6 +12,8 @@
     "start": "webpack serve",
     "build": "yarn compile && webpack --env production",
     "clean": "rm -rf ./dist && rm -rf ./build && rm tsconfig.tsbuildinfo",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "watch": "tsc -b -w --preserveWatchOutput",
     "compile": "tsc -b"
   },
